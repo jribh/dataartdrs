@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#canvas1 {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+#three {
+    width:100vw;
+    height:100vh;
+    /* background-color:yellow; */
+}
+
+button, #download-button {
+    margin:1em 1em 0 0;
+    width:5em;
+}
+
+#entry-div {
+    display:flex;
+    flex-direction: column;
+    width:10em;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#buttons-div {
+    display:flex;
+}

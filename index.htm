@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyric art</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="entry-div">
+        <div>Enter positivity zone: <input type="number" id="positivity-input"></div>
+        <div>Enter jitter zone: <input type="number" id="jitter-input"></div>
+        <div>Enter time in seconds: <input type="number" id="time-input"></div>
+        <div id="buttons-div"><button>Create</button><button id="download-button">Download</button></div>
+    </div>
+    <div id="three">
+    </div>
+    <!-- <canvas id="canvas1"></canvas> -->
+
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../build/three.module.js"
+            }
+        }
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.3/d3.js" integrity="sha512-cDPdgERRVMU6Jz48Xa3FBYl71JhtzkUc/W687GTwDroCyCxL2MbQRuhQ7BFyAFSAI2GQLUBOrgW86K9pKFWt/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>    
+<script src="https://d3js.org/d3.v6.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js" integrity="sha512-NLtnLBS9Q2w7GKK9rKxdtgL7rA7CAS85uC/0xd9im4J/yOL4F9ZVlv634NAM7run8hz3wI2GabaA6vv8vJtHiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.js" integrity="sha512-tmdOKTY7I6MOUcCL/9fa4s+BnBCgEuifJImOX46m36+rxVMcgHEPGLVoCXHR6ZvjcKGoVixEiBKE4LcYLnv0Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://unpkg.com/three@0.85.0/examples/js/controls/OrbitControls.js"></script>
+
+
+
+<!-- <script src="https://threejs.org/examples/js/exporters/GLTFExporter.js"></script> -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/dev/examples/js/renderers/CSS2DRenderer.js"></script>
+<script src="https://rawgit.com/gamestdio/three-text2d/master/dist/three-text2d.min.js"></script>
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
